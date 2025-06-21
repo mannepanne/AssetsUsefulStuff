@@ -1,5 +1,7 @@
 This is a template to use for initial high level PRDs. The purpose is to briefly and succinctly outline a clear problem statement, and the desired ideal outcome. It's intended as a living document that will be updated as the project progresses. It's not a complete specification, or a project plan, but acts as a guide for further documentation and planning.
 
+For other great templates and inspiration, see [Lenny's favourites](https://www.lennysnewsletter.com/p/my-favorite-templates-issue-37).
+
 # Project Title
 Last updated: [date]
 Updated by: [name]
