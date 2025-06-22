@@ -105,6 +105,8 @@
 - Free or low cost solutions are always preferred.
 - For hosting CloudFlare is the preferred provider, simply because I already have an account there.
 - If a data storage solution is required, first consider using Cloudflare KV for efficient key-value storage. If that's not an option, consider other CloudFlare storage options before suggesting alternatives.
+- If a user authentication system is required, the simplest possible solution is always preferred. A basic "magic link" authentication system can be implemented using a combination of email verification and a unique token, this is considered enough in most cases.
+- When making technology choices and implementing solutions, security is paramount. Always consider security in every choice, including treatment of personal user data (GDRP) and compliance with relevant regulations.
 
 ### RTFM: Read The Frakking Manual
 - For any selected framework, library, third party component, API or other service, read the manual to ensure you use the latest stable version and follow best practice usage and patterns.
