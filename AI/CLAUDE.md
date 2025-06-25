@@ -92,11 +92,11 @@
 - Run lint/typecheck commands after code changes if available
 
 ## Learning and Memory Management
-- YOU MUST use the journal tool frequently to capture technical insights, failed approaches, and user preferences
-- Before starting complex tasks, search the journal for relevant past experiences and lessons learned
-- Document architectural decisions and their outcomes for future reference
-- Track patterns in user feedback to improve collaboration over time
-- When you notice something that should be fixed but is unrelated to your current task, document it in your journal rather than fixing it immediately
+- YOU MUST use the journal tool frequently to capture technical insights, failed approaches, and user preferences.
+- Before starting complex tasks, search the journal for relevant past experiences and lessons learned.
+- Document architectural decisions and their outcomes for future reference.
+- Track patterns in user feedback to improve collaboration over time.
+- When you notice something that should be fixed but is unrelated to your current task, document it in your journal rather than fixing it immediately.
 
 ### Summary instructions
 When you are using /compact, please focus on our conversation, your most recent (and most significant) learnings, and what you need to do next. If we've tackled multiple tasks, aggressively summarize the older ones, leaving more context for the more recent ones.
@@ -112,15 +112,15 @@ When you are using /compact, please focus on our conversation, your most recent 
 - **YOU MUST NEVER** throw away or rewrite implementations without EXPLICIT permission. If you're considering this, YOU MUST STOP and ask first.
 
 ### Code Standards and Comments
-- Follow existing code style within files for consistency
+- Follow existing code style within files for consistency.
 - All code files should start with:
   ```
   // ABOUT: [Brief description of file purpose]
   // ABOUT: [Key functionality or responsibility]
   ```
-- Preserve existing meaningful comments unless proven incorrect
-- When migrating to new comment standards, do so systematically across the entire file
-- Use evergreen naming conventions (avoid "new", "improved", "enhanced")
+- Preserve existing meaningful comments unless proven incorrect.
+- When migrating to new comment standards, do so systematically across the entire file.
+- Use evergreen naming conventions (avoid "new", "improved", "enhanced").
 
 ### Testing Strategy
 - We practice TDD (Test-Driven Development) for new features.
@@ -159,28 +159,28 @@ YOU MUST ALWAYS find the root cause of any issue you are debugging YOU MUST NEVE
 YOU MUST follow this debugging framework for ANY technical issue:
 
 ### Phase 1: Root Cause Investigation (BEFORE attempting fixes)
-- Read Error Messages Carefully: Don't skip past errors or warnings - they often contain the exact solution
-- Reproduce Consistently: Ensure you can reliably reproduce the issue before investigating
+- Read Error Messages Carefully: Don't skip past errors or warnings - they often contain the exact solution.
+- Reproduce Consistently: Ensure you can reliably reproduce the issue before investigating.
 - Check Recent Changes: What changed that could have caused this? Git diff, recent commits, etc.
 
 ### Phase 2: Pattern Analysis
-- Find Working Examples: Locate similar working code in the same codebase
-- Compare Against References: If implementing a pattern, read the reference implementation completely
+- Find Working Examples: Locate similar working code in the same codebase.
+- Compare Against References: If implementing a pattern, read the reference implementation completely.
 - Identify Differences: What's different between working and broken code?
 - Understand Dependencies: What other components/settings does this pattern require?
 
 ### Phase 3: Hypothesis and Testing
-- Form Single Hypothesis: What do you think is the root cause? State it clearly
-- Test Minimally: Make the smallest possible change to test your hypothesis
-- Verify Before Continuing: Did your test work? If not, form new hypothesis - don't add more fixes
-- When You Don't Know: Say "I don't understand X" rather than pretending to know
+- Form Single Hypothesis: What do you think is the root cause? State it clearly.
+- Test Minimally: Make the smallest possible change to test your hypothesis.
+- Verify Before Continuing: Did your test work? If not, form new hypothesis - don't add more fixes.
+- When You Don't Know: Say "I don't understand X" rather than pretending to know.
 
 ### Phase 4: Implementation Rules
 - ALWAYS have the simplest possible failing test case. If there's no test framework, it's ok to write a one-off test script.
-- NEVER add multiple fixes at once
-- NEVER claim to implement a pattern without reading it completely first
-- ALWAYS test after each change
-- IF your first fix doesn't work, STOP and re-analyze rather than adding more fixes
+- NEVER add multiple fixes at once.
+- NEVER claim to implement a pattern without reading it completely first.
+- ALWAYS test after each change.
+- IF your first fix doesn't work, STOP and re-analyze rather than adding more fixes.
 
 ## Project Related Knowledge Documentation
 - We value documentation. The main purpose of documentation is to be able to pick up a project later and quickly understand how everything hangs together and how to use it and / or extend it.
