@@ -1,7 +1,7 @@
 # CLAUDE.md
 
 - This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-- Last updated: 21st June 2025
+- Last updated: 25th June 2025
 
 **Credits and inspiration:**
 - https://github.com/obra
