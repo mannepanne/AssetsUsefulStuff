@@ -1,4 +1,4 @@
-This is a template to use for initial high level PRDs. The purpose is to briefly and succinctly outline a clear problem statement, and the desired ideal outcome. It's intended as a living document that will be updated as the project progresses. It's not a complete specification, or a project plan, but acts as a guide for further documentation and planning.
+This is intended as an initial high level PRD. The purpose is to briefly and succinctly outline a clear problem statement, and the desired ideal outcome. It's intended as a living document that will be updated as the project progresses. It's not a complete specification, or a project plan, but acts as a guide for further documentation and planning.
 
 For other great templates and inspiration, see [Lenny's favourites](https://www.lennysnewsletter.com/p/my-favorite-templates-issue-37).
 
@@ -11,6 +11,13 @@ Instruction: List any additional useful resources.
 - [Strategy brief - see separate template](url)
 - [Document 2](url)
 - [Document 3](url)
+
+## Usage
+- This template is intended for use with Claude Code alongside the files CLAUDE.md (work instructions for Claude) and PRDGENERATION.md (detailed instructions for generating PRDs).
+- Copy the template and PRDGENERATION.md to a new project, place it in a folder called SPECIFICATIONS, and rename it "OnePagerRequirements.md" to match instructions in CLAUDE.md.
+- Then start with a prompt similar to this to kick off the generation process:
+
+In the folder SPECIFICATIONS you find two files. There is a template for a PRD, a Product Requirements Document, that I would like to complete in a first draft version in collaboration with you. The template we need to complete is named OnePagerRequirements.md. You also find an instruction file, PRDGENERATION.md, that explains how to work with me to ask additional questions, and how to complete the template. Please read the files and let me know if it's clear what to do before we start.
 
 ## Executive summary
 Instruction: A brief overview that highlights the problem being addressed, the proposed solution, and the anticipated impact. It provides a high-level understanding of the project.
