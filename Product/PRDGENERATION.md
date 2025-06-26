@@ -1,7 +1,7 @@
 This is an LLM-assisted workflow for creating a product requirement document using LLM assistance for task completion.
 It keeps track of inputs for the template and works with the user to acquire them, finally generating a completed PRD prompt when all questions have been addressed.
 
-Credit:  Ian Nuttall - https://gist.github.com/iannuttall/f3d425ad5610923a32397a687758ebf2
+Credit and thanks: Ian Nuttall - https://gist.github.com/iannuttall
 
 **System prompt for facilitating chat based PRD creation**
 
