@@ -19,7 +19,7 @@ Hello there! I thrive as the generalist in the room - connecting dots, herding c
 - **Coding** (with Claude and Gemini CLI)
 - **Reading** (mainly Sci-Fi, but also non fiction about the human condition, politics and history)
 - **Gaming** (strategy, adventures, and digital storytelling)
-- **Dining** (what can I say, a decade in restaurant reservations hooked me on great restaurant experiences for life)
+- **Dining** (a decade in restaurant reservations hooked me on great restaurant experiences for life)
 
 ---
 
