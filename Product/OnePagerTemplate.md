@@ -20,9 +20,14 @@ Instruction: List any additional useful resources.
 In the folder SPECIFICATIONS you find two files. There is a template for a PRD, a Product Requirements Document, that I would like to complete in a first draft version in collaboration with you. The template we need to complete is named OnePagerRequirements.md. You also find an instruction file, PRDGENERATION.md, that explains how to work with me to ask additional questions, and how to complete the template. Please read the files and let me know if it's clear what to do before we start.
 
 ## Executive summary
-Instruction: A brief overview that highlights the problem being addressed, the proposed solution, and the anticipated impact. It provides a high-level understanding of the project.
+Instruction: A brief overview that highlights the problem being addressed, the proposed solution, and the anticipated impact. It provides a high-level understanding of the project. This should be written last, after all other sections are complete.
 
 {executive_summary}
+
+## Elevator Pitch
+Instruction: The core narrative of the project. Think of it as the elevator pitch that explains who this is for and why they will care.
+
+{core_narrative}
 
 ## Description: What is this about?
 Instruction: Briefly provide the background and context.
