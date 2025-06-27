@@ -2,7 +2,7 @@
 
 - 👀 I’m interested in a wide range of things...
 - 🌱 For the latest, see my /now page: https://hultberg.org/now/
-- 📫 You can reach me via @[mannepanne.bsky.social](https://bsky.app/profile/mannepanne.bsky.social) on Bluesky, or my LinkedIn profile: https://uk.linkedin.com/in/hultberg
+- 📫 You can reach me via @[mannepanne.bsky.social](https://bsky.app/profile/mannepanne.bsky.social) on Bluesky, or my [LinkedIn profile](https://uk.linkedin.com/in/hultberg)
 
 ## 🏆 Senior Product Manager | Discovery & Exploration Generalist
 
