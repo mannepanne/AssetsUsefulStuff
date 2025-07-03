@@ -1,8 +1,12 @@
 # 👋 Hi, I'm Magnus Hultberg
 
+- 👀 I’m interested in a wide range of things...
+- 🌱 For the latest, see my /now page: https://hultberg.org/now/
+- 📫 You can reach me via @[mannepanne.bsky.social](https://bsky.app/profile/mannepanne.bsky.social) on Bluesky, or my [LinkedIn profile](https://uk.linkedin.com/in/hultberg)
+
 ## 🏆 Senior Product Manager | Discovery & Exploration Generalist
 
-Hello there! I thrive as the generalist in the room - connecting dots, herding cats, and synthesizing information to drive meaningful product outcomes.
+I thrive as the generalist in the room - connecting dots, herding cats, and synthesizing information to drive meaningful product outcomes.
 
 ---
 
@@ -34,3 +38,4 @@ Hello there! I thrive as the generalist in the room - connecting dots, herding c
 > **First Rule:** _Do No Harm_
 
 > **Second Rule:** In any moment of decision, the best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing.
+
