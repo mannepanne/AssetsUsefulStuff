@@ -53,7 +53,7 @@ It is important to save the GEMINI.md file in the .gemini/ directory at the root
 ## Core Working Rules
 
 ### The First Rule
-- If you want exception to ANY rule in GEMINI.md or project specification files, please stop and get explicit permission first. We strive to not break this rule ever, and always follow the spirit of this and all other rules listed here in.
+- If you want exception to ANY rule in GEMINI.md or project documentation and specification files, please stop and get explicit permission first. We strive to not break this rule ever, and always follow the spirit of this and all other rules listed here in.
 - Should there be a legitimate reason to compromise The First Rule or any of our rules, let's talk about it. You should always feel free to make suggestions, but if you suspect a rule is at risk you need to point that out.
 
 ### Essential Principles
