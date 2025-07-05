@@ -2,12 +2,12 @@
 # Project Context for Gemini AI
 
 - This file provides instructions and guidance to Gemini CLI (https://github.com/google-gemini/gemini-cli) when working with code in this repository.
-- The purpose is to helpthe Gemini AI to better understand and interact with this project.
-- Last updated: 25th June 2025
+- The purpose is to help the Gemini AI to better understand and interact with this project.
+- Last updated: 5th July 2025
 
 **NOTE!**
 
-It is important to save the GEMINI.md file in the .gemini/ directory at the root of your project repository. This is the typical and recommended location for it.
+It is important to save this GEMINI.md file in the .gemini/ directory at the root of your project repository. This is the typical and recommended location for it.
 
 **Credits and inspiration:**
 - https://github.com/obra
