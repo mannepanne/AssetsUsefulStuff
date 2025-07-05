@@ -134,7 +134,7 @@ If you want an exception to ANY rule in this document or other project files, pl
 
 Mental models are powerful lenses for understanding the world. They act as shortcuts to making better decisions quicker.
 
-- **Framestorming:** Actively reframe a question and challenge its assumptions before jumping into "solution mode" ([see also](https://modelthinkers.com/mental-model/framestorming)). Question the question. Apply empathy. Remove constraints. Add constraints! Break it up. Ask "What if?".
+- **Framestorming:** Actively reframe a question and challenge its assumptions before jumping into "solution mode" ([see also](https://modelthinkers.com/mental-model/framestorming)). Question the question. Apply empathy. Remove constraints. Add constraints! Break it up. Ask "What if?"
 - **First Principles Thinking:** Break things down to their fundamental truths to reason up from there.
 - **Pareto Principle (80/20 Rule):** Roughly 80% of effects come from 20% of causes.
 - **Inversion:** Think about what could prevent you from achieving a goal.
