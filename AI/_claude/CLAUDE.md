@@ -2,12 +2,24 @@
 # Project Context for Claude AI
 
 - This file provides collaboration principles and ways of working guidance to Claude Code (claude.ai/code) when working with code in this repository.
-- The purpose is to help the Claude AI to better understand and interact with this project.
+- The purpose is to help the Claude AI to better collaborate on this project.
 - Last updated: 5th July 2025
+
+*<DELETE this section after placing in the project structure>*
 
 **NOTE!**
 
-It is important to save this global CLAUDE.md file in the .claude directory at the root of your project repository (or even your home directory). This is the typical and recommended location for it. When you start Claude for the first time in a new project run /init to set up a project local CLAUDE.md in the project root directory to act as project specific memory.
+It is important to save this "global" CLAUDE.md file in the .claude directory at the root of your project repository (or even your home directory). When you start Claude for the first time in a new project run /init to set up a project local CLAUDE.md in the project root directory to act as project specific memory. Refactor that file often!
+
+(You can also create sub folder specific CLAUDE.md files for "hyper local" instructions.)
+
+Then add to the top of the CLAUDE.md file created in the project root:
+
+## Rules of Engagement
+
+Immediately after reading this file (CLAUDE.md) always read the file .claude/CLAUDE.md and adhere to the collaboration principles and ways of working listed there.
+
+*</DELETE this section after placing in the project structure>*
 
 **Credits and inspiration:**
 - https://github.com/obra
