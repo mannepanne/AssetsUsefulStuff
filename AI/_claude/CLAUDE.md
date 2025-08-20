@@ -89,7 +89,7 @@ Immediately after reading this file (CLAUDE.md) always read the file .claude/CLA
 | Web frontend framework | Next.js (React) with App Router | Server-side rendering and SEO |
 | Web frontend design | TailWind CSS for styling with shadcn/ui as component library | Great starting point |
 | Hosting of simple websites | CloudFlare | I already have an account |
-| Hosting of Next.js applications | Vercel | I already have an account |
+| Hosting of Next.js applications | Netlify | I already have an account |
 | Database and authentication | Supabase | I already have an account |
 | CDN / DNS / Basic data storage | Cloudflare KV | Key-value storage, then other CF options |
 | Email communication | Resend.com | I already have an account |
