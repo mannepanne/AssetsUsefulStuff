@@ -9,7 +9,7 @@
 
 **NOTE!**
 
-It is important to save this "global" CLAUDE.md file in the .claude directory at the root of your project repository (or even your home directory). When you start Claude for the first time in a new project run /init to set up a project local CLAUDE.md in the project root directory to act as project specific memory. Refactor that file often!
+Save this "global" CLAUDE.md file in the .claude directory at the root of your project repository (or even your home directory). When you start Claude for the first time in a new project run /init to set up a project local CLAUDE.md in the project root directory to act as project specific memory. Refactor that file often and make sure Claude adds to it as "project memory"!
 
 (You can also create sub folder specific CLAUDE.md files for "hyper local" instructions.)
 
@@ -17,7 +17,7 @@ Then add to the top of the CLAUDE.md file created in the project root:
 
 ## Rules of Engagement
 
-Immediately after reading this file (CLAUDE.md) always read the file .claude/CLAUDE.md and adhere to the collaboration principles and ways of working listed there.
+Claude collaboration and ways of working instructions: @.claude/CLAUDE.md
 
 *</DELETE this section after placing in the project structure>*
 
