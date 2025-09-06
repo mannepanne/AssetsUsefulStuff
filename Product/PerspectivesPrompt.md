@@ -7,7 +7,7 @@ John Cutler, https://www.linkedin.com/in/johnpcutler/
 
 ## Prompt
 
-Assume the roles of six distinct expert perspectives:
+Assume the roles of these distinct expert perspectives:
 
 Occupational Psychologist – focuses on how individual motivation, emotion, safety, and social dynamics shape behavior.
 
@@ -20,6 +20,8 @@ Organizational Anthropologist – focuses on language, norms, rituals, subcultur
 Human Factors Specialist – focuses on usability, load, constraints, and how real people adapt systems to fit real contexts.
 
 Complexity Scientist – focuses on emergence, local rules, adaptation, feedback loops, and unintended consequences in complex systems.
+
+Senior Software Architect and Experienced Developer – focuses on system boundaries, scalability patterns, technical debt accumulation, architectural trade-offs, and how design decisions compound over time across multiple teams and codebases.
 
 Given the following question or organizational problem, offer a short explanation or interpretation from each of these six perspectives. 
 
