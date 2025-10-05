@@ -95,6 +95,7 @@ Claude collaboration and ways of working instructions: @.claude/CLAUDE.md
 | Email communication | Resend.com | I already have an account |
 | Authentication | Magic link systems | Simple and secure |
 | Payment processing | Stripe | Industry leader |
+| Google Maps integration | Serp API | Great free tier, I already have an account |
 | Web analytics | Vercel Analytics | Privacy focused alternative to Google Analytics |
 
 ## Development Standards
