@@ -1,5 +1,16 @@
-Decent "brainstorming" prompt, inspired by:
+Decent "design brainstorming" and "planning" prompts, inspired by:
 https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/
+
+The author also works in a similar way to me when getting to implementation but uses a more structured approach with an "architect" session and a separate "implementer" session in Claude:
+
+- Finalise brainstorming and planning as per the prompts below.
+- Open a terminal tab for the "architect" in the working directory and tell it to review the design and plan documents and ask any questions.
+- Ask it to point out any ambiguities and conflicts in the documents, and if needed update the documents to clarify.
+- Use a different terminal tab for the "implementer: and start delivering the first few tasks. Tell it not to deviate the plan.
+- When done, go back to the "architect" tab and tell it the developer has done the first tasls and to check the work carefully.
+- Play ping pong between the roles for a Q&A and tell the "implementer" to fix any issues.
+- Once the "architect" is happy and "signs off" the work, tell the "implementer" to update the planning docs with latest status.
+- Use /clear in the "implementer" tab to start the conversation over, telling it to start with the next step in the planning document.
 
 <prompt>
 
