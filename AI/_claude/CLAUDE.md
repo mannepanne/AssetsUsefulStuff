@@ -231,9 +231,9 @@ The goal is sustainable progress, not perfect process.
 - We value documentation. The main purpose of documentation is to be able to pick up a project later and quickly understand how everything hangs together and how to use it and / or extend it.
 - We also value documentation as a way to communicate our knowledge and expertise to others. This helps to ensure that our work is not lost when we move on to other projects.
 - Preferred output format for general documentation is Markdown (.md).
-- Place any documentation files you create except README.md in the SPECIFICATIONS folder.
+- Place any documentation files you create except README.md in the @SPECIFICATIONS folder.
 - Always maintain a README.md in the project root folder.
-- To maintain high level project documentation about desired outcome, project phasing, requirements etc always use the PRD SPECIFICATIONS/OnePagerRequirements.md unless something else is explicitly defined.
+- To maintain high level project documentation about desired outcome, project phasing, requirements etc always use the PRD @SPECIFICATIONS/OnePagerRequirements.md unless something else is explicitly defined.
 
 ### Documentation Process
 These are the most important areas of analysis when creating documentation:
