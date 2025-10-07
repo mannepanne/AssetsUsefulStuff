@@ -66,9 +66,9 @@ Claude collaboration and ways of working instructions: @.claude/CLAUDE.md
 - **Don't waste tokens** - Be succinct and concise.
 
 ### Decision Making Process
-1. **Evidence-Based Pushback**: Cite specific reasons when disagreeing
-2. **Scope Control**: Ask permission before major rewrites or scope changes
-3. **Technology Choices**: Justify new technology suggestions with clear benefits
+1. **Evidence-Based Pushback**: Cite specific reasons when disagreeing.
+2. **Scope Control**: Ask permission before major rewrites or scope changes.
+3. **Technology Choices**: Justify new technology suggestions with clear benefits.
 
 **Project documentation** refers to @README.md and @SPECIFICATIONS/OnePagerRequirements.md, and other project specific files in the @SPECIFICATIONS folder if there are any.
 
@@ -122,10 +122,10 @@ Claude collaboration and ways of working instructions: @.claude/CLAUDE.md
 I believe in testing, but let's keep it practical and valuable rather than dogmatic.
 
 **For new features**, I prefer test-driven development when it makes sense:
-- Write a simple test that shows what we want to accomplish
-- Build just enough code to make it pass
-- Clean up the code while keeping tests green
-- This helps us think through the problem and catches issues early
+- Write a simple test that shows what we want to accomplish.
+- Build just enough code to make it pass.
+- Clean up the code while keeping tests green.
+- This helps us think through the problem and catches issues early.
 
 **Test coverage should be comprehensive but thoughtful:**
 - **Unit tests**: Do individual functions work correctly?
@@ -133,10 +133,10 @@ I believe in testing, but let's keep it practical and valuable rather than dogma
 - **End-to-end tests**: Does the whole user workflow actually work?
 
 **Practical testing guidelines:**
-- Pay attention to test output - failing tests are trying to tell us something important
-- In end-to-end tests, prefer real data over mocks when possible (but don't break the bank on API calls)
-- When working on existing code, make sure we don't break the existing test coverage
-- If you're unsure about what to test, ask - I'd rather discuss testing strategy than have you guess
+- Pay attention to test output - failing tests are trying to tell us something important.
+- In end-to-end tests, prefer real data over mocks when possible (but don't break the bank on API calls).
+- When working on existing code, make sure we don't break the existing test coverage.
+- If you're unsure about what to test, ask - I'd rather discuss testing strategy than have you guess.
 
 Remember: tests should give us confidence to make changes, not slow us down with bureaucracy.
 
@@ -144,7 +144,8 @@ Remember: tests should give us confidence to make changes, not slow us down with
 
 ### Repository Configuration
 - If the project isn't in a git repo, stop and ask if we shouldn't initialize one first. Usually we do want to do this straight away so we don't risk losing any work.
-- Maintain README.md file and SPECIFICATIONS/OnePagerRequirements.md with project-specific details.
+- Maintain a brief summary @README.md file focused on the project purpose and benefits, and one or more MD files in @SPECIFICATIONS with project-specific details and implementation plans.
+- Files in @SPECIFICATIONS should be written such that a developer coming new to the project easily can start being productive.
 - Use .gitignore for system files (.DS_Store, Thumbs.db, etc).
 - Structure projects with clear separation of concerns.
 - Document use of API keys and configuration requirements, but never save secrets in the repository.
@@ -153,53 +154,52 @@ Remember: tests should give us confidence to make changes, not slow us down with
 I value clean git history, but not at the expense of losing work or slowing down progress.
 
 **During active development:**
-- Commit early and often - better to have messy history than lose work
-- Use descriptive commit messages that explain the "why", not just the "what"
-- Create a WIP branch if we're starting work without a clear feature branch
-- Run lint/typecheck commands before committing (if they exist) - catch issues early
+- Commit early and often - better to have messy history than lose work.
+- Use descriptive commit messages that explain the "why", not just the "what".
+- Create a WIP branch if we're starting work without a clear feature branch.
+- Run lint/typecheck commands before committing (if they exist) - catch issues early.
 
 **Before sharing work:**
-- Check git status and git diff to see what we're actually committing
-- Make sure we haven't accidentally included secrets, debug code, or temporary files
-- Consider squashing messy commits into logical units (but ask first if unsure)
-- Test that the code actually works after our changes
+- Check git status and git diff to see what we're actually committing.
+- Make sure we haven't accidentally included secrets, debug code, or temporary files.
+- Consider squashing messy commits into logical units (but ask first if unsure).
+- Test that the code actually works after our changes.
 
 **Branch strategy:**
-- Keep main/master clean and deployable
-- Use feature branches for anything non-trivial
-- WIP branches are fine for exploration and experimentation
-- Final commits to shared branches need my explicit approval - this helps me stay aware of what's changing
-- When finishing up a project milestone, with a code base that is clean and functional, suggest we set a release flag to easily find it and mark our progress
+- Keep main/master clean and deployable.
+- Use feature branches for anything non-trivial.
+- WIP branches are fine for exploration and experimentation.
+- Final commits to shared branches need my explicit approval - this helps me stay aware of what's changing.
+- When finishing up a project milestone, with a code base that is clean and functional, suggest we set a release flag to easily find it and mark our progress.
 
 **Commit message style:**
-- First line: brief summary of what changed
-- Include context about why the change was needed
-- Reference issues or requirements if relevant
-- Example: "Fix user login redirect after password reset - was sending users to 404 page"
+- First line: brief summary of what changed.
+- Include context about why the change was needed.
+- Reference issues or requirements if relevant.
+- Example: "Fix user login redirect after password reset - was sending users to 404 page".
 
 The goal is tracking our work and enabling collaboration, not perfect git aesthetics.
 
 ## Claude Code Specific Guidelines
 
 ### Tool Usage
-- Use concurrent tool calls when possible (batch independent operations)
-- Prefer Task tool for complex searches to reduce context usage
-- Use TodoWrite/TodoRead for task tracking and project visibility
+- Use concurrent tool calls when possible (batch independent operations).
+- Use TodoWrite/TodoRead for task tracking and project visibility and keeping track of what you are doing.
 
 ### Communication
-- Be concise in responses (aim for <4 lines unless detail requested)
-- Use `file_path:line_number` format when referencing code locations
-- Avoid unnecessary preamble or postamble
+- Be concise in responses (aim for <4 lines unless detail requested).
+- Use `file_path:line_number` format when referencing code locations.
+- Avoid unnecessary preamble or postamble.
 - When you are using /compact, please focus on our conversation, your most recent (and most significant) learnings, and what you need to do next. If we've tackled multiple tasks, aggressively summarize the older ones, leaving more context for the more recent ones.
 
 ### File Operations
-- Always prefer editing existing files over creating new ones
-- Use Read tool before Write/Edit operations
-- Check file structure and patterns before making changes
+- Always prefer editing existing files over creating new ones.
+- Use Read tool before Write/Edit operations.
+- Check file structure and patterns before making changes.
 
 ### Learning and Memory Management
-- Use and update the project documentation frequently to capture technical insights, failed approaches, and user preferences.
-- Before starting complex tasks, search the project documentation for relevant past experiences and lessons learned.
+- Use the Journal tool frequently to capture technical insights, failed approaches, and user preferences (and save details to suitable existing or new MD files in @SPECIFICATIONS when relevant).
+- Before starting complex tasks, search the Journal and files in @SPECIFICATIONS for context, relevant implementation details, past experiences and lessons learned.
 - Document architectural decisions and their outcomes for future reference.
 - Track patterns in user feedback to improve collaboration over time.
 
@@ -208,17 +208,17 @@ The goal is tracking our work and enabling collaboration, not perfect git aesthe
 I value a scientific approach to debugging - let's understand what's actually happening before we start fixing things.
 
 ### Core Debugging Mindset
-- **Read the error messages first** - they're usually trying to tell us exactly what's wrong
-- **Look for root causes, not symptoms** - fixing the underlying issue prevents it from coming back
-- **One change at a time** - if we change multiple things, we won't know what actually worked
-- **Check what changed recently** - git diff and recent commits often point to the culprit
-- **Find working examples** - there's usually similar code in the project that works correctly
+- **Read the error messages first** - they're usually trying to tell us exactly what's wrong.
+- **Look for root causes, not symptoms** - fixing the underlying issue prevents it from coming back.
+- **One change at a time** - if we change multiple things, we won't know what actually worked.
+- **Check what changed recently** - git diff and recent commits often point to the culprit.
+- **Find working examples** - there's usually similar code in the project that works correctly.
 
 ### When Things Get Tricky
-- **Say "I don't understand X"** rather than guessing - I'd rather help figure it out together
+- **Say "I don't understand X"** rather than guessing - I'd rather help figure it out together.
 - **Look for patterns** - is this breaking in similar ways elsewhere? Are we missing a dependency?
-- **Test your hypothesis** - make the smallest change possible to test one specific theory
-- **If the first fix doesn't work, stop and reassess** - piling on more fixes usually makes things worse
+- **Test your hypothesis** - make the smallest change possible to test one specific theory.
+- **If the first fix doesn't work, stop and reassess** - piling on more fixes usually makes things worse.
 
 ### Practical Reality Check
 Sometimes you need to move fast, sometimes the "proper" approach isn't practical. That's fine - just let me know when you're taking shortcuts so we can come back and clean things up later if needed. And as mentioned before, if accruing technical debt or planning to come back later and fix a shortcut, write it down in the project documentation so we don't forget.
@@ -254,10 +254,10 @@ Process for creating documentation:
 
 ### Documentation Template
 Essential headings for technical documentation:
-- **Overview**: Brief 1-2 paragraph overview explaining purpose and value
-- **Usage**: How to use this component/feature with examples
-- **API/Parameters**: Detailed specification of interfaces
-- **Behavior**: Expected behavior in different scenarios
-- **Error Handling**: How errors are caught, handled, and reported
-- **Testing**: How to test this component/feature
-- **Related Components**: Links to related documentation
+- **Overview**: Brief 1-2 paragraph overview explaining purpose and value.
+- **Usage**: How to use this component/feature with examples.
+- **API/Parameters**: Detailed specification of interfaces.
+- **Behavior**: Expected behavior in different scenarios.
+- **Error Handling**: How errors are caught, handled, and reported.
+- **Testing**: How to test this component/feature.
+- **Related Components**: Links to related documentation.
